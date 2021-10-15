@@ -1,25 +1,40 @@
 ---
 layout: post
-title: "Welcome to Lagrange!"
-author: "Paul Le"
-categories: journal
-tags: [documentation,sample]
-image: mountains.jpg
+title: "나의 첫 회사, 첫 프로젝트 만또(Mantto)"
+author: "Hyewon"
+categories: project
+tags: [FE, ReactNative, Application]
+image: mantto.jpg
 ---
 
-Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog. Below you can find everything you need to get started.
+만또 프로젝트(React Native 기반)의 프론트엔드 개발을 진행하면서 공부한 내용 혹은 겪은 일들을 정리하려 한다.<br>
+[Github 소스코드](https://github.com/yirangsProject/frontend)
 
-## Getting Started
+### FE 개발 환경
 
-[Getting Started]({{ site.github.url }}{% post_url 2015-10-10-getting-started %}): getting started with installing Lagrange, whether you are completely new to using Jekyll, or simply just migrating to a new Jekyll theme.
+프론트엔드 개발은 ios, android를 한번에 개발 할 수 있는 `react-native` `프레임워크`를 사용한다. 백앤드를 GraphQL로 설계해 `백앤드와의 통신`을 `Apollo Graphql`로 한다. Apollo에 있는 `cache`로 `주된 전역 변수 관리`를 하고 간단하고 `일시적인 전역변수 관리`의 경우 `Redux`를 사용한다.
+
+- Apollo Client
+
+백앤드 통신
+
+- Apollo Graphql
+
+디버깅 툴
+
+- Reactroton
+
+### 기술을 제대로 학습하기에 Docs만한게 없다.
+
+프로젝트를 진행하며 가장 고민을 많이 했던 부분이 Apollo의 cache를 사용해 데이터를 관리하는 것이었다. Redux는 일시적이고
 
 ## Example Content
 
-[Text and Formatting]({{ site.github.url }}{% post_url 2014-01-01-text-formatting-examples %})
+[Text and Formatting]({{ site.github.url }}{% post_url 2021-10-12-jekyll-blog %})
 
 ## Questions?
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
 
 ## More Jekyll!
 
