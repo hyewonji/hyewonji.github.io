@@ -7,7 +7,6 @@ disqus:
 google-ID: "UA-112060364-1"
 
 menu:
-  - { name: "About", url: "about.html" }
   - { name: "Writing", url: "writing.html" }
   - { name: "Contact", url: "contact.html" }
 
@@ -22,9 +21,5 @@ social:
 pagination:
   next_page: "Newer"
   previous_page: "Older"
-
-sharing_button_prompt: "Feel free to share!"
-
-related_posts: "You may also enjoy:"
 
 post_date_prefix: "Written on"
